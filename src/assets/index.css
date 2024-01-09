@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Birch';
+    src: url(font/birchstd-webfont.woff2) format('woff2'),
+    url(font/birchstd-webfont.woff) format('woff'),
+    url(font/birchstd-webfont.ttf) format('truetype'),
+    url(font/birchstd-webfont.svg) format('svg');
+    src: url(font/birchstd-webfont.eot);
+    src: url(font/birchstd-webfont.eot?#iefix) format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', serif;
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+.birch {
+    font-family: 'Birch', serif;
+}
+
+.roboto {
+    font-family: 'Roboto', serif;
+}
+
+.londrina {
+    font-family: 'Londrina Solid', serif;
+}
+
+
